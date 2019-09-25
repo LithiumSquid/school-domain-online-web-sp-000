@@ -21,7 +21,9 @@ end
 
 def sort
   sorted_hash = {}
-  roster.sort_by do |x, y|
-    
-  
+  roster.each do |x, y|
+    sorted_hash[x] = y.sort
+  end
+  sorted_hash
+end
 end
