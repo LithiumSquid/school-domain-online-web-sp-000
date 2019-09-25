@@ -18,4 +18,8 @@ def grade(year)
     end
   end
 end
+
+def sort
+  roster.sort |x, y|
+  
 end
