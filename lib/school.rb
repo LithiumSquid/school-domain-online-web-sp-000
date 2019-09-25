@@ -2,12 +2,11 @@ class School
 attr_accessor :name, :roster
 
 def initialize(name)
+  @name = name
+  @roster = {}
+  end 
 
-school = School.new("Bayside High School")
-
-school.roster
-
-school.add_student("Zach Morris", 9)
-school.roster
-
+def add_student(name, grade)
+  
+  roster << {name, grade}
 end
