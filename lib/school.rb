@@ -12,7 +12,7 @@ def add_student(name, year)
 end
 
 def grade(year)
-  roster.find do |x,y|
+  roster.each.find do |x,y|
     if x == year
       return y
     end
