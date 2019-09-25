@@ -14,5 +14,5 @@ end
 def grade(grade)
   roster.find do |x,y|
     if grade == grade
-      
+      return y
 end
