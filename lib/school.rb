@@ -9,3 +9,4 @@ def initialize(name)
 def add_student(name, grade)
   roster[grade] << [name]
 end
+end
