@@ -20,6 +20,8 @@ def grade(year)
 end
 
 def sort
-  roster.sort |x, y|
+  sorted_hash = {}
+  roster.sort_by do |x, y|
+    
   
 end
