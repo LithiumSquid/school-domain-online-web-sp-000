@@ -13,6 +13,6 @@ end
 
 def grade(grade)
   roster.find do |x,y|
-    if grade == grade
+    if x == grade
       return y
 end
