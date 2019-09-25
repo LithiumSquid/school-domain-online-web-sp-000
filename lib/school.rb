@@ -16,4 +16,5 @@ def grade(grade)
     if x == grade
       return y
     end
+  end
 end
